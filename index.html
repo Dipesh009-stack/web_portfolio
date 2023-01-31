@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/index.css" />
+    <!-- cdn link of font awesomw -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <!-- Navigation bar -->
     <header>
-      <nav>
+      <nav class="nav">
         <h1 id="nav-title">my Portfolio</h1>
         <ul>
           <li><a href="home">about</a></li>
@@ -20,17 +22,36 @@
           <li><a href="home">contact me</a></li>
         </ul>
       </nav>
-      <button class="btn-git">my projects</button>
+      <!-- <button class="btn-git">my projects</button> -->
+        
+        <p class="pic">
+          <br><br><br><br><br>
+          <h1 class="body-head"><marquee width="97%" float="left">Web-Designer </marquee></h1>
+          <h3 class="body-head"> i do IT better </h3> <br> 
+          <p class="body-head">A software engineer is a person who applies the principles of software engineering to design, develop, maintain, test, and evaluate computer software.</p>
+          <br><p class="body-heads">wana see my projects and all ?</p>
+          </p>
+        </p>
+        <br>
+        <button class="project-btn">
+          my projects 
+        </button>
+        <div class="shape">
+          <h1>dipesh wosti</h1>
+        </div>
+      
     </header>
     <!-- Body section -->
-    <section class="fields">
+    <section id="bodysection">
+      <div class="headd">What I do..?</div>
+      <div class="fields">
       <div class="web-design">
         <h1>front-end</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-          architecto, iurewddesd sit deleniti dolorem quibusdam soluta reiciendis iste
-          voluptati laudantium maxime consequuntur ipsa adipisci sed et,
-          officiis quis eaque nemo.
+          architecto, iurewddesd sit deleniti dolorem quibusdam soluta
+          reiciendis iste voluptati laudantium maxime consequuntur ipsa adipisci
+          sed et, officiis quis eaque nemo.
         </p>
         <button class="order">view more</button>
       </div>
@@ -39,8 +60,7 @@
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
           natus ullam nulla quo qui distinctio nihil mollitia, autem amet
-          sapiente sequi adipi
-          sci aspernatur quae explicabo rem expedita at in
+          sapiente sequi adipi sci aspernatur quae explicabo rem expedita at in
           blanditiis.
         </p>
         <button class="order">view more</button>
@@ -55,6 +75,37 @@
         </p>
         <button class="order">view more</button>
       </div>
+      </div>
     </section>
+    <section id="keepintouch">
+      <div class="hobbies">
+        <h1>My hobbies</h1>
+      </div>
+      <div class="section-title">
+        <h1>Keep in touch with me</h1>
+      </div>
+      <div class="keepintouch">
+        <div class="contact">
+          <form action="post">
+            <input type="text" name="full_name" id="nm" placeholder="Full Name">
+            <input type="email" name="email" id="nm" placeholder="Email">
+            <input type="number" name="full_name" id="nm" placeholder="Phone Number">
+            <label for="message">Message for me</label>
+            <textarea name="txtarea" id="tid" cols="5" rows="4">Enter your message HERE...</textarea>
+            <button>Submit</button>
+
+          </form>
+        </div>
+      
+      </div>
+    </section>
+     <div class="social">
+          <h1>Follow me</h1>
+          <ul>
+            <li> <a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li> <a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li> <a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+          </ul>
+        </div>
   </body>
 </html>

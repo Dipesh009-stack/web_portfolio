@@ -1,0 +1,18 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+}
+
+header {
+    background-color: rgb(226, 145, 145);
+    height: 600px;
+    background-color: black;
+    background-image: url('../image/bg22.webp');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 78%;
+    color: white;
+}

@@ -7,26 +7,79 @@
     box-sizing: border-box;
     font-family: 'Poppins';
     
-    
-    
 }
 header{
-    background-color: rgb(226, 145, 145);  
-    height: 721px;
-    background-color: black;
-    background-image: url('../image/bg22.webp');
+    background-color:rgb(226, 145, 145);  
+    height: 600px;
+    background-color: rgb(32, 32, 32);
+    background-image:url('../image/bg22.webp');
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: 27%;
+    background-position: 78%;
     color: white;
 }
+
+.body-head{
+    margin-left: 10%;
+    width: 30%;
+    justify-content: space-evenly;
+    
+}
+.body-heads{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.project-btn{
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+    border: 2px solid white;
+    border-radius: 2ch;
+    width: 241px;
+    color: black;
+    
+}
+
+.project-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.shape{
+    position: absolute;
+    background-color: white;
+    color: black;
+    height: 120px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 49.5%;
+    top: 67%;
+    border: solid grey;
+    border-top-left-radius: 2cm;
+    border-top-right-radius: 2cm;
+    background-color: rgb(237, 233, 233);
+}
+
 nav{
     display: flex;
+    width: 100%;
     justify-content:space-between;
     flex-direction: row;
     align-items: center;
     padding: 5px 140px 5px 140px;
     font-size: medium;
-    box-shadow: 0px 1px 10px rgb(46, 45, 45);
+    box-shadow: 0px 1px 10px rgb(164, 162, 162);
+    position: fixed;
+    top: 0%;
+}
+
+.nav{
+    /* position: fixed; */
+    background-color: rgb(0, 0, 0);
 }
 
 nav li{
@@ -109,4 +162,59 @@ nav a:hover{
     cursor: pointer;
     border: 1px solid white;
 
+}
+
+/* .pic {
+    /* margin-left: 1000px; */
+    /* margin-top: 15%; */
+
+/* } */ */
+.headd{
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30%;
+    font-size: large;
+}
+.bodysection{
+    background-color: rgb(237, 233, 233);
+}
+
+.keepintouch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#keepintouch{
+    background-color: rgb(154, 152, 152);
+    
+}
+.keepintouch ul{
+    list-style: none;
+}
+.section-title{
+    margin-left: 68%;
+}
+.hobbies{
+   margin-left: 10%; 
+   font-size: ;
+   font
+}
+.social ul li a{
+    text-decoration: none;
+}
+.contact{
+    margin-left: 52%;
+    margin-top: 2%;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+
+}
+.contact form input{
+    margin-bottom: 5%;
 }
