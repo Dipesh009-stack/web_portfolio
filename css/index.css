@@ -158,9 +158,10 @@ nav a:hover{
     border-radius: 2ch;
 }
 .order:hover{
-    background-color: grey;
+    background-color: white;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid black;
+    color: black;
 
 }
 
@@ -170,7 +171,6 @@ nav a:hover{
 
 /* } */ */
 .headd{
-    margin-left: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -179,31 +179,66 @@ nav a:hover{
 }
 .bodysection{
     background-color: rgb(237, 233, 233);
+    
+}
+/* #bodysection{
+    background-image:url(/image/png/cycling.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+} */
+.bgimg{
+    position: absolute;
+    margin-left: 30%;
+    opacity: 0.2;
+    
 }
 
 .keepintouch{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+       
 }
 #keepintouch{
     background-color: rgb(154, 152, 152);
     
 }
-.keepintouch ul{
+.keepintouch ul li{
     list-style: none;
 }
 .section-title{
     margin-left: 68%;
+    
 }
 .hobbies{
    margin-left: 10%; 
-   font-size: ;
-   font
+   padding: 5%;
+  
 }
-.social ul li a{
-    text-decoration: none;
+.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    
+}
+.social h1{
+    margin-left: 10%;
+}
+
+.social ul li{
+    list-style: none;
+    padding: 15%;
+    margin-top: 15%;
+
 }
 .contact{
     margin-left: 52%;
@@ -217,4 +252,16 @@ nav a:hover{
 }
 .contact form input{
     margin-bottom: 5%;
+}
+.child2 ul li{
+    list-style: none;
+    cursor: pointer;
+
+}
+.copyright{
+    margin-left: 95%;
+    
+}
+.copy{
+    background-color: rgb(167, 167, 167);
 }
